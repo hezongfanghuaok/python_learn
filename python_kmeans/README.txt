@@ -1,0 +1,8 @@
+ocr.py是百度再带测试demo
+test_bd_aiocr.py是自己写的测试百度ai  ocr代码
+zhihu_bd_aiocr.py是测试知乎搜到的一个帖子调用百度ai ocr代码
+cv_kmeans.py测试opencv中kmeans算法
+k_means.py 测试的是sklearn中的kmeans算法
+point_center.py 测试的是在一定半径内 随机画出指定个数的散点图  并这些点的中心位置
+readyaml.py 测试对于yaml文件的读写  一个是通过yaml库 一个是通过cv
+test.yaml是焊标实验中将3d相机的实际xy位置通过mat形式 通过cv写yaml写入的
