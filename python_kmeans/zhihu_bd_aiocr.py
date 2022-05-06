@@ -28,7 +28,7 @@ def mupic2text(picturefile, outputfile):
             fo.writelines('\n' * 2)
 
 
-picturefile = "E:\\github\\testimg\\ocrtest.jpg"  # 图片路径
+picturefile = "E:\\github\\testimg\\img\\*.jpg"  # 图片路径
 outputfile = 'pictotext.txt'  # 转换的后的文件名，路径在python脚本所在的路径下
 if path.exists(outputfile):
     os.remove(outputfile)

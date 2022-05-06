@@ -47,8 +47,8 @@ v_measure_s = metrics.v_measure_score(y, pre_y)
 # 平均轮廓系数
 silhouette_s = metrics.silhouette_score(X, pre_y, metric='euclidean')
 
-# Calinski 和 Harabaz 得分
-calinski_harabaz_s = metrics.calinski_harabasz_score(X, pre_y)
+# Calinski 和 Harabaz 得分 不一样的库 有的是calinski_harabaz_score 有的是 calinski_harabasz_score
+calinski_harabaz_s = metrics.calinski_harabaz_score(X, pre_y)
 
 
 df_metrics = pd.DataFrame([[inertias, adjusted_rand_s,mutual_info_s, adjusted_mutual_info_s, homogeneity_s,completeness_s,v_measure_s, silhouette_s ,calinski_harabaz_s]],
