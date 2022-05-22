@@ -14,7 +14,7 @@ db = client['db']
 
 
 #cv读取yaml文件
-yamlpath = "./test3.yaml"
+yamlpath = "./test.yaml"
 cv_file = cv2.FileStorage(yamlpath, cv2.FILE_STORAGE_READ) # 实例化一个 FileStorage
 mat = cv_file.getNode("my_matrix").mat()
 cv_file.release()
