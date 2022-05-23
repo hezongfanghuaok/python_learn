@@ -2,6 +2,13 @@ import cv2
 import numpy as np
 import glob
 
+
+#cv读取yaml文件
+yamlpath = "./chess.yaml"
+cv_file = cv2.FileStorage(yamlpath, cv2.FILE_STORAGE_READ) # 实例化一个 FileStorage
+mat = cv_file.getNode("corners").mat()
+cv_file.release()
+
 # 找棋盘格角点
 # 阈值
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
@@ -29,15 +36,33 @@ for fname in images:
 
     # cv写入yaml文件
     cv_file1 = cv2.FileStorage("chess.yaml", cv2.FILE_STORAGE_WRITE)
-    #matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-    print("write matrix\n", imgpoints)
-    cv_file1.write("corners", imgpoints)
+    print("write matrix\n", corners)
+    cv_file1.write("corners", corners)
     cv_file1.release()
 
     # 将角点在图像上显示
-    cv2.drawChessboardCorners(img, (w, h), corners, ret)
-    cv2.imshow('findCorners', img)
-    cv2.waitKey()
+    #cv2.drawChessboardCorners(img, (w, h), corners, ret)
+    #cv2.imshow('findCorners', img)
+    #cv2.waitKey()
+    
+mat2d,inlins=cv2.estimateAffine2D(corners,corners)
+# cv写入yaml文件
+cv_file1 = cv2.FileStorage("mat2d.yaml", cv2.FILE_STORAGE_WRITE)
+print("write matrix\n", mat2d)
+cv_file1.write("mat2d", mat2d)
+cv_file1.release()
+
+
+matrix1 = np.array([[1, 3], [49, 4], [7.5, 8],[1, 3], [3, 5], [7, 8],[1, 2], [2, 5], [98, 8]],'2f')
+matrix2 = np.array([[1, 2], [4, 5], [7, 8],[1, 29], [4, 59], [37, 8],[1, 32], [4, 5], [37, 8]])
+
+mat2dtest,inlins=cv2.estimateAffine2D(matrix1,matrix2)
+# cv写入yaml文件
+cv_file1 = cv2.FileStorage("mat2dtest.yaml", cv2.FILE_STORAGE_WRITE)
+print("write matrix\n", mat2dtest)
+cv_file1.write("mat2d", mat2dtest)
+cv_file1.release()
+
 cv2.destroyAllWindows()
 
 # 标定
