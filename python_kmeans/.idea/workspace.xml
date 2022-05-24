@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bb97d63-19e2-44cc-8ec6-2d1a26ddf68f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/find_chess/chess.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/find_chess/chess.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_chess/opencv_find_chess.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_chess/opencv_find_chess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_project/img_proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/img_project/img_proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_project/mat2dtest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/img_project/mat2dtest.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2842wxJAgKQZw6hzbplcyE7jotR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\python_learn\python_kmeans" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.img_proj">
+    <configuration name="img_proj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonlearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/img_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/img_project/img_proj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="k_means" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonlearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k_means.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="opencv_find_chess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonlearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/find_chess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_chess/opencv_find_chess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readyaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonlearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kemeans" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kemeans/readyaml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zhihu_bd_aiocr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonlearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhihu_bd_aiocr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.img_proj" />
+        <item itemvalue="Python.opencv_find_chess" />
+        <item itemvalue="Python.readyaml" />
+        <item itemvalue="Python.zhihu_bd_aiocr" />
+        <item itemvalue="Python.k_means" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bb97d63-19e2-44cc-8ec6-2d1a26ddf68f" name="Default Changelist" comment="" />
+      <created>1650461779701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650461779701</updated>
+      <workItem from="1650461781411" duration="4402000" />
+      <workItem from="1650498809663" duration="22314000" />
+      <workItem from="1650556926648" duration="377000" />
+      <workItem from="1650614263540" duration="3591000" />
+      <workItem from="1650678327982" duration="320000" />
+      <workItem from="1650679594508" duration="3550000" />
+      <workItem from="1650858897132" duration="164000" />
+      <workItem from="1650859076253" duration="1842000" />
+      <workItem from="1650892759106" duration="3584000" />
+      <workItem from="1650896511755" duration="637000" />
+      <workItem from="1650940846667" duration="2108000" />
+      <workItem from="1653186373770" duration="7289000" />
+      <workItem from="1653289399141" duration="5902000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="165" key="#xdebugger.XInspectDialog" timestamp="1653188455373">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="94" y="165" key="#xdebugger.XInspectDialog/0.0.1536.824@0.0.1536.824" timestamp="1653188455373" />
+    <state width="1143" height="370" key="DebuggerActiveHint" timestamp="1653291713474">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1143" height="370" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1653291713474" />
+    <state width="1405" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1650679713241" />
+    <state width="1324" height="151" key="GridCell.Tab.0.bottom" timestamp="1653299205752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1653299205752" />
+    <state width="1877" height="512" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650699921254" />
+    <state width="1324" height="151" key="GridCell.Tab.0.center" timestamp="1653299205752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1653299205752" />
+    <state width="1877" height="512" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650699921254" />
+    <state width="1324" height="151" key="GridCell.Tab.0.left" timestamp="1653299205752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1653299205752" />
+    <state width="1877" height="512" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650699921254" />
+    <state width="1324" height="151" key="GridCell.Tab.0.right" timestamp="1653299205752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1653299205752" />
+    <state width="1877" height="512" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650699921254" />
+    <state width="1324" height="151" key="GridCell.Tab.1.bottom" timestamp="1653299205753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1653299205753" />
+    <state width="1877" height="512" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650699921254" />
+    <state width="1324" height="151" key="GridCell.Tab.1.center" timestamp="1653299205753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1653299205753" />
+    <state width="1877" height="512" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650699921254" />
+    <state width="1324" height="151" key="GridCell.Tab.1.left" timestamp="1653299205753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1653299205753" />
+    <state width="1877" height="512" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650699921254" />
+    <state width="1324" height="151" key="GridCell.Tab.1.right" timestamp="1653299205753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1324" height="151" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1653299205753" />
+    <state width="1877" height="512" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650699921254" />
+    <state x="178" y="22" width="996" height="802" key="SettingsEditor" timestamp="1650859054773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="22" width="996" height="802" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1650859054773" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1653293633878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1653293633878" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1650550601726" />
+    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1650547567352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1650547567352" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/find_chess/opencv_find_chess.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/find_chess/opencv_find_chess.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/find_chess/opencv_find_chess.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/img_project/img_proj.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_kmeans$point_center.coverage" NAME="point_center Coverage Results" MODIFIED="1650895927021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_kmeans$img_proj.coverage" NAME="img_proj Coverage Results" MODIFIED="1653294498656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/img_project" />
+    <SUITE FILE_PATH="coverage/pythonlearn$readyaml.coverage" NAME="readyaml Coverage Results" MODIFIED="1650530339062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonlearn$cv_kmeans.coverage" NAME="cv_kmeans Coverage Results" MODIFIED="1650681881495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_kmeans$cv_kmeans.coverage" NAME="cv_kmeans Coverage Results" MODIFIED="1650861947763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_kmeans$zhihu_bd_aiocr.coverage" NAME="zhihu_bd_aiocr Coverage Results" MODIFIED="1650941613758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonlearn$point_center.coverage" NAME="point_center Coverage Results" MODIFIED="1650463851944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_kmeans$k_means.coverage" NAME="k_means Coverage Results" MODIFIED="1650897118361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_kmeans$opencv_find_chess.coverage" NAME="opencv_find_chess Coverage Results" MODIFIED="1653291632990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/find_chess" />
+    <SUITE FILE_PATH="coverage/python_kmeans$test_bd_aiocr.coverage" NAME="test_bd_aiocr Coverage Results" MODIFIED="1650894394108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_kmeans$readyaml.coverage" NAME="readyaml Coverage Results" MODIFIED="1653186609989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kemeans" />
+    <SUITE FILE_PATH="coverage/pythonlearn$k_means.coverage" NAME="k_means Coverage Results" MODIFIED="1650465361423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
