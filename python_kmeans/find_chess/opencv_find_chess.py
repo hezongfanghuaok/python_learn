@@ -6,8 +6,8 @@ import glob
 # 阈值
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 # 棋盘格模板规格
-w = 9
-h = 6
+w = 11
+h = 8
 # 世界坐标系中的棋盘格点,例如(0,0,0), (1,0,0), (2,0,0) ....,(8,5,0)，去掉Z坐标，记为二维矩阵
 objp = np.zeros((w * h, 3), np.float32)
 objp[:, :2] = np.mgrid[0:w, 0:h].T.reshape(-1, 2)
@@ -15,7 +15,7 @@ objp[:, :2] = np.mgrid[0:w, 0:h].T.reshape(-1, 2)
 objpoints = []  # 在世界坐标系中的三维点
 imgpoints = []  # 在图像平面的二维点
 
-images = glob.glob('../testimg/*.jpg')
+images = glob.glob('../testimg/*.bmp')
 for fname in images:
     img = cv2.imread(fname)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -30,9 +30,9 @@ for fname in images:
     # cv写入yaml文件
     cv_file1 = cv2.FileStorage("chess.yaml", cv2.FILE_STORAGE_WRITE)
     #matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-    print("write matrix\n", imgpoints)
-    cv_file1.write("corners", imgpoints)
-    cv_file1.release()
+    print("write matrix\n", corners)
+    cv_file1.write("corners", corners)
+   # cv_file1.release()
 
     # 将角点在图像上显示
     cv2.drawChessboardCorners(img, (w, h), corners, ret)
