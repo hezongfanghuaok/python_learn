@@ -15,7 +15,7 @@ objp[:, :2] = np.mgrid[0:w, 0:h].T.reshape(-1, 2)
 objpoints = []  # 在世界坐标系中的三维点
 imgpoints = []  # 在图像平面的二维点
 
-images = glob.glob('../testimg/*.bmp')
+images = glob.glob('../testimg/1.bmp')
 for fname in images:
     img = cv2.imread(fname)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -26,6 +26,7 @@ for fname in images:
         cv2.cornerSubPix(gray, corners, (11, 11), (-1, -1), criteria)
     objpoints.append(objp)
     imgpoints.append(corners)
+
 
     # cv写入yaml文件
     cv_file1 = cv2.FileStorage("chess.yaml", cv2.FILE_STORAGE_WRITE)
@@ -40,4 +41,26 @@ for fname in images:
     cv2.waitKey()
 cv2.destroyAllWindows()
 
+centpoints = []
+cornerlen=len(corners)
+
+a=int(11/10)
+for i in range(len(corners)-18):
+    onecenter=corners[int(i/10)+i]
+    anpoint=corners[int(i/10+i)+12]
+    x=onecenter[0][0]+(anpoint[0][0]-onecenter[0][0])/2
+    y = onecenter[0][1] + (anpoint[0][1]  - onecenter[0][1] ) / 2
+    centpoints.append([x,y])
+
+
+#1  5  9
+#21 25 29
+#41 45 49   int(i/3)*20+(4*(i%3)-3)
+
+
+for i in range(8):
+    for j in range(11-1):
+        onecenter=corners[j*i+j]
+        anpoint=corners[(j*i+j)+12]
+        centpoints.append(onecenter)
 # 标定
