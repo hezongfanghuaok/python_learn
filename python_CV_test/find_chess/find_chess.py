@@ -7,8 +7,8 @@ import numpy as np
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.1)
 
 # 棋盘格参数
-corners_vertical = 8    # 纵向角点个数;
-corners_horizontal = 11  # 横向角点个数;
+corners_vertical = 11    # 纵向角点个数;
+corners_horizontal = 8  # 横向角点个数;
 pattern_size = (corners_vertical, corners_horizontal)
 
 
@@ -49,11 +49,11 @@ def main():
     cv2.resizeWindow("img", 1800, 1350)
 
     # 2.循环读取标定图片
-    img_src = cv2.imread('./hh.bmp')
+    img_src = cv2.imread('./1.bmp')
     if img_src is not None:
         # 执行查找角点算法
         find_corners_sb(img_src)
-       # find_corners(img_src)
+        # find_corners(img_src)
 
         # 显示图片
         cv2.imshow("img", img_src)
