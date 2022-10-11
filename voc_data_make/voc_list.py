@@ -3,8 +3,8 @@
 import os
 import random
 
-trainval_percent = 0.2  # 可以自己设置
-train_percent = 0.8  # 可以自己设置
+trainval_percent =0.9   # 训练验证集占整个数据集的比重（划分训练集和测试验证集）
+train_percent =0.8   # 训练集占整个训练验证集的比重（划分训练集和验证集）
 
 xmlfilepath = './VOCdevkit/VOC2007/Annotations'  # 地址填自己的
 txtsavepath = './VOCdevkit/VOC2007/ImageSets/Main'
@@ -13,7 +13,7 @@ total_xml = os.listdir(xmlfilepath)
 num = len(total_xml)
 list = range(num)
 tv = int(num * trainval_percent)
-tr = int(tv * train_percent)
+tr = int(num * train_percent)
 trainval = random.sample(list, tv)
 train = random.sample(trainval, tr)
 

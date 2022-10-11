@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-
+#通过比较坐标点  自动确定坐标位置
 def order_points(pts):
 	# initialzie a list of coordinates that will be ordered
 	# such that the first entry in the list is the top-left,
@@ -26,7 +26,7 @@ def order_points(pts):
 	return rect
 
 
-def four_point_transform(image, pts):
+def four_point_transform(pts):
 	# obtain a consistent order of the points and unpack them
 	# individually
 	rect = order_points(pts)
@@ -56,11 +56,39 @@ def four_point_transform(image, pts):
 		[maxWidth - 1, 0],
 		[maxWidth - 1, maxHeight - 1],
 		[0, maxHeight - 1]], dtype = "float32")
-
+	dst1=np.array([[464,546],[1160,546],[1160,3547],[464,3547]], dtype = "float32")
 	# compute the perspective transform matrix and then apply it
 	M = cv2.getPerspectiveTransform(rect, dst)
-	warped = cv2.warpPerspective(image, M, (maxWidth, maxHeight))
+	#warped = cv2.warpPerspective(image, M, (maxWidth, maxHeight))
 
 	# return the warped image
-	return warped
+	return M
+
+def main():
+	# load the image and grab the source coordinates (i.e. the list of
+	# of (x, y) points)
+	image = cv2.imread('xg.bmp')
+	#要注意图像的坐标和numpy矩阵坐标的关系，在矩阵坐标的行列与图像坐标的xy是互换的
+	# 可以通过画点展示解答疑惑cv2.circle(image, (465,1074), 10, (255, 0, 0), -1)
+	imgshape=image.shape
+	#pts是输入坐标，其dst转换的目标坐标是自动计算的
+	pts = np.array([(1074,465 ), (546,1159), (3547,1170), (2909,481)], dtype="float32")
+	#dst = np.array([[546,464 ], [546,1160 ], [3547,1160 ], [3547,464 ]], dtype="float32")
+
+	# 执行透视变换获取变换矩阵
+	M = four_point_transform(pts)
+
+	warped = cv2.warpPerspective(image, M, (image.shape[1],image.shape[0]))#(image.shape[1],image.shape[0])
+	# show the original and warped images
+	cv2.namedWindow("Image",cv2.WINDOW_NORMAL)
+	cv2.imshow('Image',image)
+	cv2.waitKey(0)
+	cv2.imshow('Image', warped)
+	cv2.waitKey(0)
+
+if __name__ == '__main__':
+	main()
+
+
+
 

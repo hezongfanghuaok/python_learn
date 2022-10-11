@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>JPEGImages</folder>
+	<filename>Image_20210616210609610.bmp</filename>
+	<path>E:\Learncode\python_learn\python_project\deep_project\yolov4-tf2-master\VOCdevkit\VOC2007\JPEGImages\Image_20210616210609610.bmp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>830</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>374</xmin>
+			<ymin>8</ymin>
+			<xmax>742</xmax>
+			<ymax>820</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>Image_20210616170309577.bmp</filename>
+    <path>pidaidect-PascalVOC-export/Annotations/Image_20210616170309577.bmp</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1080</width>
+        <height>830</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>1</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>439.36772046589016</xmin>
+        <ymin>8.982683982683978</ymin>
+        <xmax>682.8618968386023</xmax>
+        <ymax>825.5086580086578</ymax>
+    </bndbox>
+</object>
+</annotation>

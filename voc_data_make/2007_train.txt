@@ -1,17 +1,95 @@
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507120403.jpg 684,466,700,483,0 701,474,717,489,0 656,506,672,523,0 732,493,749,511,0 728,512,745,529,0 717,523,733,540,0 684,526,701,543,0 701,525,717,542,0 662,525,678,542,0 645,522,661,539,0 628,511,645,528,0 626,498,643,515,0 629,480,646,498,0 642,504,658,521,0 659,476,675,493,0 642,471,658,488,0 649,488,665,506,0 667,492,684,510,0 673,511,690,528,0 708,511,724,528,0 717,500,733,517,0 709,484,725,502,0 683,500,698,517,0 690,511,706,528,0 698,497,714,514,0 671,480,688,498,0 690,484,706,502,0 728,482,744,499,0 669,465,685,482,0 716,472,732,489,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507135545.jpg 616,531,632,548,0 634,527,651,544,0 645,514,661,531,0 597,531,613,548,0 570,530,587,547,0 554,527,570,544,0 537,513,553,530,0 536,497,552,515,0 550,507,566,524,0 566,509,582,528,0 652,495,668,513,0 645,483,661,500,0 633,471,650,488,0 613,470,629,487,0 598,466,614,483,0 580,463,597,480,0 554,471,570,488,0 540,480,556,497,0 557,489,573,507,0 581,482,600,499,0 601,486,617,503,0 624,488,641,506,0 624,515,641,532,0 633,500,650,518,0 613,502,629,520,0 606,517,622,534,0 585,518,602,535,0 596,502,612,520,0 577,497,594,515,0 568,476,584,493,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507135705.jpg 649,527,665,544,0 654,510,670,527,0 646,494,662,512,0 635,541,652,561,0 614,546,632,564,0 636,514,653,531,0 624,527,641,544,0 632,480,649,497,0 625,498,642,516,0 610,511,628,530,0 612,481,628,498,0 597,546,613,564,0 605,530,621,547,0 566,542,582,560,0 548,542,564,560,0 526,529,543,546,0 558,522,577,541,0 583,532,599,550,0 591,517,607,534,0 601,497,617,515,0 547,481,563,498,0 578,491,600,511,0 528,490,547,508,0 594,474,613,493,0 575,473,592,491,0 542,519,559,539,0 572,510,589,529,0 554,500,571,519,0 561,486,578,505,0 526,509,543,528,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507140507.jpg 637,533,653,552,0 617,532,634,551,0 602,531,618,550,0 581,531,597,550,0 653,530,669,549,0 663,521,680,540,0 674,508,690,526,0 664,492,681,510,0 660,474,677,493,0 656,507,672,525,0 642,517,658,535,0 637,504,653,522,0 627,518,643,536,0 610,517,627,535,0 621,504,637,522,0 593,517,609,535,0 577,517,593,535,0 648,491,664,509,0 642,473,658,492,0 631,489,647,507,0 613,490,630,508,0 599,503,615,521,0 586,502,602,520,0 570,500,586,518,0 594,492,610,510,0 579,489,595,507,0 587,475,603,494,0 604,472,621,491,0 624,475,640,494,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507140523.jpg 636,531,652,550,0 653,529,669,548,0 664,518,681,536,0 672,504,689,522,0 663,489,680,507,0 657,470,674,489,0 654,505,670,523,0 643,516,659,534,0 628,517,644,535,0 638,501,654,519,0 618,527,635,546,0 600,528,616,547,0 582,527,598,546,0 576,514,592,532,0 569,500,585,518,0 593,517,609,535,0 609,514,626,532,0 619,502,636,520,0 600,501,616,519,0 583,501,599,519,0 647,489,663,507,0 641,469,657,488,0 630,487,646,505,0 613,488,630,506,0 595,486,611,504,0 580,487,596,505,0 588,472,604,491,0 603,469,619,488,0 622,472,638,491,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141301.jpg 651,527,667,546,0 637,531,653,550,0 617,526,634,545,0 600,528,616,547,0 581,526,597,545,0 665,518,682,536,0 674,503,690,521,0 656,501,672,519,0 665,487,682,505,0 658,471,675,490,0 644,514,660,532,0 627,514,643,532,0 610,513,627,531,0 591,513,607,531,0 576,512,592,530,0 637,501,653,519,0 618,501,635,519,0 601,501,617,519,0 583,500,599,518,0 568,500,584,518,0 647,486,663,504,0 631,487,647,505,0 613,486,630,504,0 596,488,612,506,0 579,484,595,503,0 640,471,656,490,0 587,471,603,490,0 604,468,621,487,0 621,471,637,490,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141336.jpg 593,526,609,545,0 612,530,629,549,0 628,528,644,547,0 641,517,657,535,0 651,504,667,522,0 640,488,656,506,0 634,470,650,489,0 578,527,594,546,0 557,527,574,546,0 550,513,567,531,0 545,498,561,516,0 569,514,585,532,0 587,514,603,532,0 603,514,619,532,0 622,513,638,531,0 632,503,648,521,0 615,500,632,518,0 596,500,612,518,0 622,485,639,504,0 577,501,593,519,0 562,498,579,516,0 590,484,606,503,0 604,485,620,504,0 618,470,635,488,0 553,485,569,504,0 570,485,587,504,0 567,471,584,489,0 579,470,595,488,0 599,471,615,489,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141345.jpg 633,530,649,549,0 617,528,634,546,0 667,529,684,547,0 679,519,696,537,0 690,505,706,523,0 596,527,612,545,0 679,488,696,507,0 671,505,688,523,0 674,472,691,490,0 658,471,674,489,0 591,513,607,531,0 585,498,601,516,0 593,485,609,504,0 659,515,675,533,0 637,503,653,521,0 626,515,643,533,0 607,515,623,533,0 653,502,669,520,0 663,490,679,509,0 647,486,663,505,0 639,473,655,491,0 643,516,659,534,0 652,531,668,550,0 617,502,634,520,0 599,501,615,519,0 628,485,645,504,0 610,488,626,507,0 603,475,619,493,0 619,471,636,489,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141352.jpg 646,532,662,551,0 659,530,676,549,0 674,518,691,536,0 625,528,641,547,0 611,529,628,548,0 590,527,606,546,0 685,504,701,522,0 666,504,683,522,0 654,517,670,535,0 637,515,653,533,0 619,515,636,533,0 602,516,618,534,0 585,514,601,532,0 578,498,594,516,0 672,489,689,507,0 646,501,662,519,0 630,501,646,519,0 610,500,627,518,0 593,499,609,517,0 657,490,674,508,0 638,489,654,507,0 624,487,640,505,0 605,486,622,504,0 589,487,605,505,0 598,472,614,491,0 613,470,630,489,0 667,474,684,493,0 651,472,667,491,0 632,472,648,491,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141404.jpg 707,532,723,551,0 728,532,744,551,0 744,533,760,552,0 762,536,778,555,0 778,532,795,551,0 702,518,718,536,0 718,520,735,539,0 737,519,753,537,0 756,520,772,539,0 772,521,789,540,0 791,524,807,543,0 801,509,817,527,0 782,509,798,527,0 765,506,782,524,0 747,506,763,524,0 727,506,743,524,0 712,505,729,523,0 695,506,711,524,0 704,492,720,510,0 721,492,738,510,0 739,493,755,511,0 760,492,776,510,0 774,492,791,510,0 791,492,807,510,0 786,477,802,496,0 769,476,786,495,0 750,479,766,498,0 731,476,747,495,0 715,478,732,497,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141427.jpg 755,535,771,554,0 776,479,793,495,0 773,534,790,553,0 791,533,807,552,0 809,537,825,556,0 826,536,843,555,0 838,525,854,544,0 847,508,863,526,0 836,494,852,512,0 832,478,849,497,0 816,478,832,497,0 820,493,837,511,0 827,510,844,528,0 819,525,836,544,0 800,522,816,541,0 783,521,799,540,0 745,506,758,521,0 750,518,766,536,0 765,522,782,541,0 788,493,804,511,0 774,508,791,526,0 794,510,810,528,0 810,508,826,526,0 757,506,773,524,0 751,492,767,510,0 768,493,785,511,0 761,480,777,499,0 804,494,820,512,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141545.jpg 744,490,760,508,0 759,535,775,554,0 750,518,766,536,0 753,503,769,521,0 735,531,751,550,0 728,517,744,535,0 720,502,737,520,0 717,532,734,551,0 701,531,717,550,0 685,529,701,548,0 667,529,684,548,0 644,527,660,546,0 641,515,657,533,0 658,518,675,536,0 679,516,695,534,0 696,516,712,534,0 712,517,729,535,0 706,504,722,522,0 688,502,704,520,0 666,502,683,520,0 634,500,650,518,0 651,501,667,519,0 680,487,696,505,0 671,473,688,492,0 646,487,662,505,0 700,469,716,488,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141617.jpg 645,528,661,547,0 665,529,682,548,0 684,529,700,548,0 700,531,716,550,0 715,532,732,551,0 733,530,749,549,0 746,519,762,537,0 735,506,751,524,0 727,518,743,536,0 642,515,658,533,0 634,502,650,520,0 658,517,675,535,0 665,503,682,521,0 686,502,702,520,0 705,503,721,521,0 714,487,731,505,0 680,488,696,506,0 670,473,687,492,0 644,487,660,505,0 675,515,691,533,0 690,472,706,491,0 720,502,737,520,0 712,516,729,534,0 693,516,709,534,0 652,500,668,518,0 662,490,679,508,0 696,490,712,508,0 655,475,671,494,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141625.jpg 580,529,596,548,0 601,528,617,547,0 615,529,632,548,0 632,532,648,551,0 576,514,592,532,0 650,529,666,548,0 669,531,686,550,0 680,519,696,537,0 671,504,688,522,0 649,487,665,505,0 568,500,584,518,0 578,486,594,504,0 586,472,602,491,0 604,471,621,490,0 623,472,639,491,0 630,486,646,504,0 637,502,653,520,0 654,501,670,519,0 599,501,615,519,0 621,502,637,520,0 613,489,630,507,0 659,518,676,536,0 644,517,660,535,0 610,515,627,533,0 629,515,645,533,0 592,516,608,534,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141640.jpg 843,515,859,533,0 743,524,759,543,0 764,525,781,544,0 809,528,825,547,0 828,526,845,544,0 795,528,811,547,0 781,526,797,545,0 737,511,753,529,0 831,501,848,519,0 762,498,778,516,0 764,468,781,487,0 811,480,827,499,0 792,484,808,503,0 784,466,800,484,0 773,484,790,503,0 785,499,801,517,0 800,499,816,517,0 732,494,748,512,0 740,482,756,501,0 804,513,820,531,0 820,511,837,529,0 771,511,788,529,0 787,512,803,530,0 754,511,770,529,0 816,497,832,515,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141649.jpg 956,527,972,546,0 995,529,1012,547,0 1058,519,1074,537,0 1028,531,1044,550,0 1044,530,1061,549,0 1046,505,1063,523,0 952,515,968,533,0 1010,532,1026,551,0 978,530,995,549,0 944,498,961,516,0 969,516,985,534,0 987,517,1004,535,0 1005,514,1021,532,0 1020,515,1036,533,0 1028,487,1044,506,0 1016,502,1032,520,0 999,502,1016,520,0 978,502,994,520,0 981,474,997,492,0 1009,488,1025,507,0 990,489,1007,508,0 997,473,1014,491,0 955,484,971,503,0
-E:\Learncode\python_learn\python_project\deep_project\dataset\myvoc_mask_voc_lablimg_example\VOCdevkit/VOC2007/JPEGImages/20220507141814.jpg 667,526,684,545,0 650,525,666,542,0 685,524,701,543,0 704,521,720,540,0 722,522,739,541,0 728,507,744,525,0 737,495,753,513,0 729,479,745,498,0 733,463,749,481,0 712,463,729,481,0 707,480,723,499,0 719,492,736,510,0 712,507,729,525,0 700,496,716,514,0 683,496,699,514,0 661,494,678,512,0 690,480,706,499,0 697,466,713,484,0 674,482,690,501,0 680,466,696,484,0 661,466,678,484,0 645,469,661,488,0 654,483,670,502,0 693,509,709,527,0 677,508,693,526,0 657,510,674,528,0 639,514,655,532,0 647,499,663,517,0 637,484,653,503,0 627,498,643,516,0
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473850862831.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473851098201.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473851332602.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473851808302.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473852532364.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473853005099.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473853239472.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/162347385394661.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473854889058.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473855605142.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/162347385584054.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473857018389.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/1623473859466809.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616165412268.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616165539581.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616165609535.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616165639625.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616165709580.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616165739535.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616165809624.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616170409622.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616170439576.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616170509531.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616170909575.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616170939530.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616171109528.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616171139618.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616171239529.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616171309618.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616172209615.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616172239570.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616172309525.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616172339613.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616172409569.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616173539608.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616173609562.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616173709607.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616174139606.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616174209561.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616174239515.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616174309606.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616175309510.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616175339600.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616180539595.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616180609550.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616180739549.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616180809504.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616181739589.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616182139633.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616182209589.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616185139622.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616185209575.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616191339523.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616191409611.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616193609512.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616193639603.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616194839596.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616194909553.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616194939507.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616200609635.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616200639591.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616200739635.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616203539534.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616203609623.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616203709533.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616210439611.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616210539521.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616210609610.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616220509541.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210616223039530.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617025809511.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617025839600.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617025909557.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617032109592.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617032139547.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617032209637.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617033609585.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617033639541.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617033709630.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617052939584.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617053009538.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617053039628.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617073039580.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617073109534.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617073139623.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617073239535.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617073309622.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617073339579.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617074739528.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617074809618.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617074839573.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617075139572.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617075209526.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617075239615.bmp
+E:\github\python_learn\voc_data_make\VOCdevkit/VOC2007/JPEGImages/Image_20210617075509525.bmp

@@ -4,9 +4,8 @@ import os
 from os import listdir, getcwd
 from os.path import join
 import random
-
-classes=["0"]
-
+#要注意修改下方种类 否则无法转化数据
+classes=["1"]
 
 def clear_hidden_files(path):
     dir_list = os.listdir(path)
@@ -32,7 +31,7 @@ def convert(size, box):
     return (x,y,w,h)
 
 def convert_annotation(image_id):
-    in_file = open('VOCdevkit/VOC2007/Annotations/%s.xml' %image_id)
+    in_file = open('VOCdevkit/VOC2007/Annotations/%s.xml' %image_id,encoding='utf-8')
     out_file = open('VOCdevkit/VOC2007/labels/%s.txt' %image_id, 'w')
     tree=ET.parse(in_file)
     root = tree.getroot()
