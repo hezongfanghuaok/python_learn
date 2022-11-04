@@ -16,7 +16,7 @@ def sendimg():
     '''
     request_url = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic"
     # 二进制方式打开图片文件
-    f = open('E:\\github\\testimg\\ocrtest.jpg', 'rb')
+    f = open('E:\\github\\testimg\\11.jpg', 'rb')
     img = base64.b64encode(f.read())
     params = {"image": img}
     access_token = '24.0573f577cab20c524f3be9a4d7da8871.2592000.1653484935.282335-26074288'
